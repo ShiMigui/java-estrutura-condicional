@@ -1,7 +1,9 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio7 {
     public static void main(String[] args) throws Exception {
+        Locale.setDefault(Locale.US);
         float x, y;
 
         Scanner sc = new Scanner(System.in);
@@ -16,10 +18,14 @@ public class Exercicio7 {
             System.out.println("Eixo Y");
         else if (y == 0)
             System.out.println("Eixo X");
-        else if(x < 0 && y < 0) System.out.println("Q3");
-        else if(x < 0 && y > 0) System.out.println("Q2");
-        else if(x > 0 && y > 0) System.out.println("Q1");
-        else System.out.println("Q4");
+        else if (x < 0 && y < 0)
+            System.out.println("Q3");
+        else if (x < 0 && y > 0)
+            System.out.println("Q2");
+        else if (x > 0 && y > 0)
+            System.out.println("Q1");
+        else
+            System.out.println("Q4");
 
         sc.close();
     }

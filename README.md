@@ -207,16 +207,16 @@ Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobr
 #### Exercício 8 - Exemplos
 
 ```bash
-3002,00
-R$ 80,36
+3002.00
+R$ 80.36
 ```
 
 ```bash
-1701,12
+1701.12
 Isento
 ```
 
 ```bash
-4520,00
-R$ 355,60
+4520.00
+R$ 355.60
 ```

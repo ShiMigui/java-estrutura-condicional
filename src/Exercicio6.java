@@ -1,7 +1,9 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio6 {
     public static void main(String[] args) throws Exception {
+        Locale.setDefault(Locale.US);
         float num;
         String intervalo;
 
